@@ -12,4 +12,9 @@ def f(x):
     return x * 4 + 6
 
 # Your code here
-
+for index1, item1 in enumerate(q):
+    for index2, item2 in enumerate(q):
+        for index3, item3 in enumerate(q):
+            for index4, item4 in enumerate(q):
+                if ((f(item1) + f(item2)) == (f(item3) - f(item4))):
+                    print(f'f({item1}) + f({item2}) = f({item3}) - f({item4})    {f(item1)} + {f(item1)} = {f(item1)} - {f(item1)}')
