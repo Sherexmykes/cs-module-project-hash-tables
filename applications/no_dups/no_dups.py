@@ -17,7 +17,7 @@ def no_dups(s):
     #  remove spaces at the beginning and end of a string
     return output.strip()
 
-if __name__ == "__main__":
+if __name__ == "__mai
     print(no_dups(""))
     print(no_dups("hello"))
     print(no_dups("hello hello"))
